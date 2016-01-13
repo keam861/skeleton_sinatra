@@ -1,4 +1,36 @@
-  <h1>Bienvenido a Sinatra!</h1>
+  <h1>Rayuela The Game</h1>
   <p>Este es un esqueleto de sinatra que armamos para ti</p>
+
+  <a class="button1">Jugar</a>
+<!--   <a href="#" class="myButton">Jugar</a> -->
+
+  <h2 id="countdown">5</h2>
+  <br></br>
+  <br></br>
+  <table class="table">
+  <tr id="jugador_1">
+
+   <td class="user">Player 1</td>
+    <td class="active" id="0"></td>
+    <% 100.times do |c| %>
+      <td id="<%= c + 1 %>"></td>
+    <% end %>
+  </tr>
+
+  <tr id="jugador_2">
+   <td>Player 2</td>
+    <td class="active" id="0"></td>
+    <% 100.times do |c| %>
+      <td id="<%= c + 1 %>"></td>
+    <% end %>  
+  </tr>
+
+</table>
+
+
+ 
+  
+
+
 
   

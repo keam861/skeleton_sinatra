@@ -7,3 +7,35 @@
 th {
   text-align: left;
 }
+
+.table td {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  color: #000000;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+
+}
+
+.table td.active {
+  background-color: black;
+}
+
+.table{
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+
+}
+
+.user{
+  width: 10px;
+}
+
+tr td:nth-child(90){
+  background-color: red;
+};
+
+
+/* //Button */
